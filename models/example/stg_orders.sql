@@ -11,6 +11,7 @@ with source_data as (
         to_varchar(customer_id) as CustomerId,
         to_varchar(order_date) as OrderDate,
         to_varchar(status) as OrderStatus,
+        to_varchar(country) as Country,
         to_varchar(product_id) as ProductId,
         to_numeric(quantity) as QuantityOrdered,
         to_numeric(price) as price,

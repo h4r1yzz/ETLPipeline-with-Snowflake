@@ -28,6 +28,7 @@ with incremental_data as (
         CustomerId,
         OrderDate,
         OrderStatus,
+        Country,
         ProductId,
         QuantityOrdered,
         Price,

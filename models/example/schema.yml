@@ -24,6 +24,8 @@ sources:
             description: A random date within the current year
           - name: status
             description: A randomly selected order status, such as CREATED, SHIPPED, DELIVERED, or CANCELLED
+          - name: country
+            description: A randomly selected country, such as US, UK, or FR
           - name: product_id
             description: A unique product ID
           - name: quantity
